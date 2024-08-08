@@ -396,6 +396,7 @@ PRODUCT_PACKAGES += \
     SpesDialerOverlay \
     SpesDeviceAsWebcam \
     SpesFrameworksOverlay \
+    SpesLauncher3Overlay \
     SpesSettingsOverlay \
     SpesSettingsProviderOverlay \
     SpesSystemUIOverlay \
