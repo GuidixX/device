@@ -188,6 +188,10 @@ PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 USE_DEX2OAT_DEBUG := false
 
+# DeviceAsWebCam
+PRODUCT_PACKAGES += \
+    DeviceAsWebcam
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
@@ -390,6 +394,7 @@ PRODUCT_PACKAGES += \
     SpesApertureOverlay \
     SpesCarrierConfigOverlay \
     SpesDialerOverlay \
+    SpesDeviceAsWebcam \
     SpesFrameworksOverlay \
     SpesSettingsOverlay \
     SpesSettingsProviderOverlay \
